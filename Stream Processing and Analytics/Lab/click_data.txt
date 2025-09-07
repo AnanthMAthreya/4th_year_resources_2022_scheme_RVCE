@@ -1,0 +1,36 @@
+def process_click_data(text):
+	click_data=json.loads(text)
+	page=click_data['page']
+	user_id=click_data['user_id']
+	return page,user_id
+	
+def main():
+	consumer=create_consumer()
+	producer=create_producer()
+	
+	page_clicks={}
+	
+	try:
+		while True:
+			msg=consumer.poll(timeout=1.0)
+			if msg is None:
+				continue
+			if msg.error():
+				print(f'Consumer error: {msg.error()}')
+				continue
+				
+			page,user_id=process_click_data(msg.value().decode('utf-8'))
+			key=(page,user_id)
+			page_clicks[key]=page_clicks.get(key,0)+1
+			
+			for key,count in page_clicks.items():
+				producer.produce('clicks-output',f'{key}:{count}')
+				producer.flush()
+	
+	finally:
+		consumer.close()
+		producer.flush()
+		producer.close()
+	
+if __name__=='__main__':
+	main()

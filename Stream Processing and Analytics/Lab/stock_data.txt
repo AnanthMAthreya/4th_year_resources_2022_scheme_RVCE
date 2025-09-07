@@ -1,0 +1,43 @@
+def process_stock_data(text):
+	stock_data=json.loads(text)
+	symbol=stock_data['symbol']
+	price=float(stock_data['price'])
+	return symbol,price
+
+def main():
+	consumer=create_consumer()
+	producer=create_producer()
+	
+	stock_prices={}
+	
+	try:
+		while True:
+			msg=consumer.poll(timeout=1.0)
+			if msg is None:
+				continue
+			if msg.error():
+				print(f"Consumer error: {msg.error()}")
+				continue
+				
+			symbol,price=process_stock_data(msg.value().decode('utf-8'))
+			if symbol not in stock_prices:
+				stock_prices[symbol]={'max':price, 'min':price,'count':0, 'total':0}
+			
+			stock=stock_prices[symbol]
+			stock['max']=max(stock['max'],price)
+			stock['min']=min(stock['min'],price)
+			stock['count']+=1
+			stock['total']+=price
+			
+			average=stock['total']/stock['count']
+			
+			producer.produce('stock-output',f'{symbol}:Max:{stock['max']},Min:{stock['min']})
+			producer.flush()
+			
+	finally:
+		consumer.close()
+		producer.flush()
+		producer.close()
+	
+if __name__ == '__main__':
+	main()

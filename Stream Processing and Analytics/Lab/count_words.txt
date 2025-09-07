@@ -1,0 +1,45 @@
+from confluent_kafka import Consumer, Producer
+
+def create_consumer():
+	config={'bootstrap.servers': 'localhost:9092,'group.id:'wordcount', 'auto.offset.reset':'earliest'}
+	consumer=Consumer(config)
+	consumer.subscribe(['wordcount-input'])
+	return consumer
+	
+def create_producer():
+	return Producer({'bootstrap.servers': 'localhost:9092})
+	
+def count_words(text):
+	words=text.lower().split()
+	word_count={}
+	for word in words:
+		if word!=='the:
+			word_count[word]=word_count.get(word,0)+1
+	return word_count
+
+def main():
+	consumer=create_consumer()
+	producer=create_producer()
+	
+	try:
+		while True:
+			msg=consumer.poll(timeout=1.0)
+			if msg is None:
+					continue
+			if msg.error():
+				print(f'Consumer error: {msg.error()}')
+				continue
+			text=msg.value().decode('utf-8')
+			word_counts=count_words(text)
+			
+			for word,count in word_counts.items():
+				producer.produce('wordcount-output', f'{word}:{count}')
+				producer.flush()
+				
+	finally:
+		consumer.close()
+		producer.flush()
+		priducer.close()
+		
+if __name__ as '__main__':
+	main()
