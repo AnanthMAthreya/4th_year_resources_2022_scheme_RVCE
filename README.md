@@ -3,7 +3,8 @@
 |**Sl no.**|**Name**|**Github**|**Linkedin**|
 |-|-|:-:|:-:|
 |1|Swastik Agrawal|-|[🔗](https://www.linkedin.com/in/swastik-agarwal-797132291/)|
-|2|Ananth M Athreya|[🔗](https://github.com/AnanthMAthreya)|-|
+|2|Ananth M Athreya|[🔗](https://github.com/AnanthMAthreya)|[🔗](https://www.linkedin.com/in/ananth-m-athreya-963262287/)|
+|3|Rachith S|-|[🔗](https://www.linkedin.com/in/s-rachith-73b6aa344/)|
 # You can contribute
 ## What can you contribute?
 - Any notes and question papers related to __fourth year courses__(Not limited to AIML and CS-allied branches) of the 2022 scheme of RVCE can be contributed.
@@ -17,14 +18,18 @@
 __You will get credits.__
 # Introduction 
 This repository contains the resources of 4th year courses in the 2022 scheme of AIML department(Some courses may be helpful for other branches), RV College of Engineering
-### For only AIML
-#### Core course
+### For AIML and CD
 |**Sl no.**|**Course Name**|**Course code**|**Github**|
 |-|-|-|-|
-|1|Stream Processing and Analytics||[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Stream%20Processing%20and%20Analytics)
+|1|Stream Processing and Analytics|AI372IA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Stream%20Processing%20and%20Analytics)
+### For only AIML
+#### Core courses
+|**Sl no.**|**Course Name**|**Course code**|**Github**|
+|-|-|-|-|
+|1|Agentic AI|AI373TA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Agentic%20AI)
 #### Professional Electives
 |**Sl no.**|**Course Name**|**Course code**|**Github**|
 |-|-|-|-|
-|1|AI Product Management||[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Artificial%20Intelligence%20Product%20Management)
-|2|AI in Autonomous Vehicles||[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Artificial%20Intelligence%20in%20Autonomous%20Vehicles)
-|3|Explainable AI||[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Explainable%20AI)
+|1|AI in Autonomous Vehicles|AI374TFA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Artificial%20Intelligence%20in%20Autonomous%20Vehicles)
+|2|Explainable AI|AI374TFB|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Explainable%20AI)
+|3|AI Product Management|AI374TFD |[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Artificial%20Intelligence%20Product%20Management)
