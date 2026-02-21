@@ -1,10 +1,10 @@
 # 4th_year_resources_2022_scheme_RVCE
 # Recent Updates
+* Added PPT and model question paper for XAI, MQP for MoM and SEE paper for SPA [SPA](#for-aiml-and-cd)
 * Added CIE schemes and solutions, and MQP for Stream Processing and Analytics, and IKS SEE Question paper [SPA](#for-aiml-and-cd) [IKS](#for-all-branches)
 * Added Question banks, CIE-3 paper, and schemes and solutions [Go here](#for-all-branches)
 * Added CIE-3 papers for SPA, Agentic AI, XAI [Go Here](#for-aiml-and-cd)
 * Added unit-5 notes for IKS [Go here](#for-all-branches)
-* Added Unit-3 and 5 notes for MoM [Go Here](#institutional-electives)
 # Contributors
 |**Sl no.**|**Name**|**Github**|**Linkedin**|
 |-|-|:-:|:-:|
