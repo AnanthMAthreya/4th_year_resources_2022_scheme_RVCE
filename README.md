@@ -1,10 +1,10 @@
 # 4th_year_resources_2022_scheme_RVCE
 # Recent Updates
+* Added textbook for IKS, and notes for PAGP, CGVR, FTS and DL [IKS](#for-all-branches) [PAGP](#for-only-cs) [CGVR](#for-only-cs) [FTS](#institutional-electives) [DL](#for-only-cs)
 * Added CIE schemes and SEE for MoM [MoM](#institutional-electives)
 * Added SEE papers for AAI,XAI and CIE-3 for MoM [AAI and XAI](#for-only-aiml)  [MoM](#institutional-electives)
 * Added PPT and model question paper for XAI, MQP for MoM and SEE paper for SPA [SPA](#for-aiml-and-cd)
 * Added CIE schemes and solutions, and MQP for Stream Processing and Analytics, and IKS SEE Question paper [SPA](#for-aiml-and-cd) [IKS](#for-all-branches)
-* Added Question banks, CIE-3 paper, and schemes and solutions [Go here](#for-all-branches)
 # Contributors
 |**Sl no.**|**Name**|**Github**|**Linkedin**|
 |-|-|:-:|:-:|
@@ -29,24 +29,36 @@ This repository contains the resources of 4th year courses in the 2022 scheme of
 |**Sl no.**|**Course Name**|**Course code**|**Github**|
 |-|-|-|-|
 |1|Indian Knowledge Systems|HS271T|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Indian%20Knowledge%20Systems)|
-### For AIML and CD
+### Core courses
+#### For AIML and CD
 |**Sl no.**|**Course Name**|**Course code**|**Github**|
 |-|-|-|-|
 |1|Stream Processing and Analytics|AI372IA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Stream%20Processing%20and%20Analytics)|
-### For only AIML
-#### Core courses
+#### For only AIML
 |**Sl no.**|**Course Name**|**Course code**|**Github**|
 |-|-|-|-|
 |1|Agentic AI|AI373TA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Agentic%20AI)
-#### Professional Electives
+#### For only CS
+|**Sl no.**|**Course Name**|**Course code**|**Github**|
+|-|-|-|-|
+|1|Parallel Architecture And GPU Programming(PAGP)|CS372IA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/PAGP)|
+|2|Computer Graphics and Virtual Reality(CGVR)|CS373IA |[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/CGVR)|
+### Professional Electives
+#### Only for AIML
 |**Sl no.**|**Course Name**|**Course code**|**Github**|
 |-|-|-|-|
 |1|AI in Autonomous Vehicles|AI374TFA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Artificial%20Intelligence%20in%20Autonomous%20Vehicles)
 |2|Explainable AI|AI374TFB|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Explainable%20AI)
-|3|AI Product Management|AI374TFD |[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Artificial%20Intelligence%20Product%20Management)
+|3|AI Product Management|AI374TFD |[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Professional%20Electives/Artificial%20Intelligence%20Product%20Management)|
+
+#### Only for CS
+|**Sl no.**|**Course Name**|**Course code**|**Github**|
+|-|-|-|-|
+|1|Deep Learning(DL)|CS374TFA|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/DL)|
 ### Institutional Electives
 |**Sl no.**|**Course Name**|**Course code**|**Github**|
 |-|-|-|-|
-|1|Mathematics of Music|MA375TGR|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Institutional%20Electives/Mathematics%20for%20Music)|
+|1|Freight Transportation Systems And Logistics|CV375TGH|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/FTS)|
+|2|Mathematics of Music|MA375TGR|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Institutional%20Electives/Mathematics%20for%20Music)|
 # See more
 - [Placement preparation](https://github.com/AnanthMAthreya/Placement_prep)
