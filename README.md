@@ -60,7 +60,7 @@ This repository contains the resources of 4th year courses in the 2022 scheme of
 |-|-|-|-|
 |1|Freight Transportation Systems And Logistics|CV375TGH|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/FTS)|
 |2|Mathematics of Music|MA375TGR|[🔗](https://github.com/AnanthMAthreya/4th_year_resources_2022_scheme_RVCE/tree/main/Institutional%20Electives/Mathematics%20for%20Music)|
-# Interdisciplinary Project
+# Major Project
 Project template [Github](https://github.com/rvce-latex/Project-Report-Template)
 # See more
 - [Placement preparation](https://github.com/AnanthMAthreya/Placement_prep)
